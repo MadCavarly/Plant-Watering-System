@@ -8,9 +8,13 @@ The Smart Plant Watering System with Data Logging Feature is designed to provide
 
 ## Hardware description of demo application
 ### Hardware Composition
---
---
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/4dc4e4e7-ed42-4038-bab3-11df1a055c8f" width="450" height="350">
+
 This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
+
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3" width="450" height="350">
+
+This diagram illustrates the interconnected circuitry of the smart plant watering system, demonstrating the layout and connections between the different components for a clear understanding of the system's electrical configuration.
 
 ### Microcontroller Unit (MCU):
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/70505b3b-20a2-4560-9823-7e834aff7961" width="450" height="350">
