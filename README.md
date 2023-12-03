@@ -17,7 +17,7 @@ Acts as the brain of the system, processing sensor data and making decisions.
 
 (Picture will change) This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
 
-<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3">
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3" width="450" height="350">
 
 This diagram illustrates the interconnected circuitry of the smart plant watering system, demonstrating the layout and connections between the different components for a clear understanding of the system's electrical configuration.
 
@@ -64,7 +64,7 @@ Real-time feedback on soil moisture, humidity and temperature displayed on the O
 #### `oled_display.py`: Handles the OLED display functionality, initializing and controlling display content for showing soil moisture, temperature, and humidity readings.
 
 ### Flowchart
-![Plant Watering Flawchart](https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/7ce0a183-ad9d-4247-a748-5e439ffde2cd)
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/7ce0a183-ad9d-4247-a748-5e439ffde2cd" width="800" height="1200">
 
 
 This flowchart visually outlines the program's logical sequence, detailing the systematic steps and decision points that govern the functionality of the smart plant watering system.
