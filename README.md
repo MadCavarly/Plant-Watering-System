@@ -21,10 +21,14 @@ Monitors the temperature of the soil and the humidity levels in the surrounding 
 Ensures that the plant is in an environment with an appropriate temperature and humidity range.
 
 ### Relay:
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/f9dd4e3d-8ba2-47f9-94ac-1a20cb81da68" width="450" height="350">
+
 Controls the water supply based on the sensor readings.
 Emulates activation or deactivation of the water pump or irrigation system.
 
 ### OLED Display
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/88b28f37-f5ee-4d31-8cc6-251b91d61ef2" width="450" height="350">
+
 Real-time feedback on soil moisture, humidity and temperature displayed on the OLED.
 
 ### Microcontroller Unit (MCU):
