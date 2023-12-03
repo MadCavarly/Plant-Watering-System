@@ -44,4 +44,28 @@ Acts as the brain of the system, processing sensor data and making decisions.
 
 #### `oled_display.py`: Handles the OLED display functionality, initializing and controlling display content for showing soil moisture, temperature, and humidity readings.
 
+## Instructions
+### How to Use the Smart Plant Watering System
+
+1. **Configure Wi-Fi Connection:**
+   - Provide your Wi-Fi credentials in the program (`main.py`) to enable connectivity for data transmission.
+  
+2. **Set Up ThingSpeak:**
+   - Configure the ThingSpeak API key within the program (`thingspeak.py`) to enable data transmission to ThingSpeak's specified fields.
+   
+3. **Adjust Sensor Parameters:**
+   - Inside the `parameters.py` file, set the desired parameters for sensor checking times and limits for soil moisture, temperature, and humidity based on your plant's needs.
+   
+4. **Sensor Placement:**
+   - Place the soil moisture sensor inside the ground near the plant but away from the watering system for accurate soil moisture readings.
+   - Position the temperature sensor in a safe location, away from direct contact with water or the watering system, to monitor ambient temperature.
+   
+5. **Starting the Application:**
+   - Once configurations and sensor placements are done, run the `main.py` application.
+   
+6. **Monitoring:**
+   - The system will continuously monitor soil moisture, temperature, and humidity based on the configured parameters.
+   - It will autonomously control the watering system to maintain optimal soil moisture levels.
+
+
 
