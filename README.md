@@ -93,5 +93,7 @@ This flowchart visually outlines the program's logical sequence, detailing the s
    - The system will continuously monitor soil moisture, temperature, and humidity based on the configured parameters.
    - It will autonomously control the watering system to maintain optimal soil moisture levels.
 
+## References
+-  T. Fryza, “MicroPython on ESP32/ESP8266 microcontollers.” [Online]. Available: https://github.com/tomas-fryza/esp-micropython
 
 
