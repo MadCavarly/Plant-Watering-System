@@ -7,6 +7,11 @@
 The Smart Plant Watering System with Data Logging Feature is designed to provide an intelligent and automated solution for plant care. Using soil moisture sensors, humidity sensors, temperature sensors, a relay, and a Microcontroller Unit (MCU), the system aims to optimize the watering process based on real-time environmental conditions. Additionally, the project incorporates data logging capabilities for users to track and analyze the plant's environment over time, ensuring optimal growth conditions.
 
 ## Hardware description of demo application
+### Microcontroller Unit (MCU):
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/70505b3b-20a2-4560-9823-7e834aff7961" width="450" height="350">
+
+Acts as the brain of the system, processing sensor data and making decisions.
+
 ### Hardware Composition
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/4dc4e4e7-ed42-4038-bab3-11df1a055c8f" width="450" height="350">
 
@@ -15,11 +20,6 @@ The Smart Plant Watering System with Data Logging Feature is designed to provide
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3" width="450" height="350">
 
 This diagram illustrates the interconnected circuitry of the smart plant watering system, demonstrating the layout and connections between the different components for a clear understanding of the system's electrical configuration.
-
-### Microcontroller Unit (MCU):
-<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/70505b3b-20a2-4560-9823-7e834aff7961" width="450" height="350">
-
-Acts as the brain of the system, processing sensor data and making decisions.
 
 ### Soil Moisture Sensor:
 
@@ -62,6 +62,12 @@ Real-time feedback on soil moisture, humidity and temperature displayed on the O
 #### `parameters.py`: Defines a class to calculate and manage various parameters related to soil moisture limits based on temperature and air humidity readings.
 
 #### `oled_display.py`: Handles the OLED display functionality, initializing and controlling display content for showing soil moisture, temperature, and humidity readings.
+
+### Flowchart
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/5f871a5d-4269-4684-904a-168a7d47cd96" width="450" height="350">
+
+This flowchart visually outlines the program's logical sequence, detailing the systematic steps and decision points that govern the functionality of the smart plant watering system.
+
 
 ## Instructions
 ### How to Use the Smart Plant Watering System
