@@ -8,6 +8,11 @@ The Smart Plant Watering System with Data Logging Feature is designed to provide
 
 ## Hardware description of demo application
 
+### Microcontroller Unit (MCU):
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/70505b3b-20a2-4560-9823-7e834aff7961" width="450" height="350">
+
+Acts as the brain of the system, processing sensor data and making decisions.
+
 ### Soil Moisture Sensor:
 
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/6b9351d7-f9d5-4eb1-8d23-2d2ba74eba97" width="450" height="350">
@@ -30,9 +35,6 @@ Emulates activation or deactivation of the water pump or irrigation system.
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/88b28f37-f5ee-4d31-8cc6-251b91d61ef2" width="450" height="350">
 
 Real-time feedback on soil moisture, humidity and temperature displayed on the OLED.
-
-### Microcontroller Unit (MCU):
-Acts as the brain of the system, processing sensor data and making decisions.
 
 ## Software Description
 ### List of Used Packages
