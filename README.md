@@ -10,7 +10,7 @@ The Smart Plant Watering System with Data Logging Feature is designed to provide
 
 ### Soil Moisture Sensor:
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/6b9351d7-f9d5-4eb1-8d23-2d2ba74eba97" width="450" height="350">
-Utilized to measure the moisture content in the soil.
+-Utilized to measure the moisture content in the soil.
 
 ### Temperature and Humidity Sensor:
 Monitors the temperature of the soil and the humidity levels in the surrounding air.
