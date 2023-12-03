@@ -7,6 +7,10 @@
 The Smart Plant Watering System with Data Logging Feature is designed to provide an intelligent and automated solution for plant care. Using soil moisture sensors, humidity sensors, temperature sensors, a relay, and a Microcontroller Unit (MCU), the system aims to optimize the watering process based on real-time environmental conditions. Additionally, the project incorporates data logging capabilities for users to track and analyze the plant's environment over time, ensuring optimal growth conditions.
 
 ## Hardware description of demo application
+### Hardware Composition
+--
+--
+This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
 
 ### Microcontroller Unit (MCU):
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/70505b3b-20a2-4560-9823-7e834aff7961" width="450" height="350">
