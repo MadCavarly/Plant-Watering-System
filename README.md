@@ -64,7 +64,7 @@ Real-time feedback on soil moisture, humidity and temperature displayed on the O
 #### `oled_display.py`: Handles the OLED display functionality, initializing and controlling display content for showing soil moisture, temperature, and humidity readings.
 
 ### Flowchart
-<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/7ce0a183-ad9d-4247-a748-5e439ffde2cd" width="800" height="1200">
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/97976ecf-1fa0-4e50-be42-6219de1fcaa1" width="800" height="1200">
 
 
 This flowchart visually outlines the program's logical sequence, detailing the systematic steps and decision points that govern the functionality of the smart plant watering system.
