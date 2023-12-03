@@ -26,4 +26,30 @@ Real-time feedback on soil moisture, humidity and temperature displayed on the O
 Acts as the brain of the system, processing sensor data and making decisions.
 
 ## Software Description
+### List of Used Packages
+
+#### `main.py`
+Primary program responsible for coordinating various modules: soil moisture sensing, temperature sensing, display management, relay control, Wi-Fi connection, and data transmission to ThingSpeak.
+
+#### `wifi_connection.py`
+Handles the ESP32's Wi-Fi connectivity, providing functions to connect and disconnect from a network, displaying network configuration, and showing the MAC address.
+
+#### `thingspeak.py`
+Enables communication with ThingSpeak, allowing data transmission to specified fields using the ThingSpeak API key. Includes functions to send sensor data to ThingSpeak.
+
+#### `temperature_sensor.py`
+Defines a class for the temperature sensor, utilizing I2C communication to read temperature and air humidity values.
+
+#### `soil_moisture_sensor.py`
+Implements a class for the soil moisture sensor, utilizing ADC (Analog-to-Digital Converter) to determine soil moisture percentage.
+
+#### `relay.py`
+Manages the relay module, enabling activation and deactivation of the relay pin based on specified conditions and duration.
+
+#### `parameters.py`
+Defines a class to calculate and manage various parameters related to soil moisture limits based on temperature and air humidity readings.
+
+#### `oled_display.py`
+Handles the OLED display functionality, initializing and controlling display content for showing soil moisture, temperature, and humidity readings.
+
 
