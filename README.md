@@ -24,3 +24,6 @@ Real-time feedback on soil moisture, humidity and temperature displayed on the O
 
 ### Microcontroller Unit (MCU):
 Acts as the brain of the system, processing sensor data and making decisions.
+
+## Software Description
+
