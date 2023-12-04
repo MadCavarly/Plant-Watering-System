@@ -1,6 +1,6 @@
 import urequests
 
-def send_data_to_thingspeak(api_key, temperature, air_humidity, soil_humidity):
+def send_data_to_thingspeak(api_key, temperature, air_humidity, soil_humidity): #sending givin values to thingspeak
     try:
         request = urequests.post(
             'http://api.thingspeak.com/update?api_key=' + api_key,
@@ -12,7 +12,7 @@ def send_data_to_thingspeak(api_key, temperature, air_humidity, soil_humidity):
     except Exception as e:
         print("Error sending data to ThingSpeak:", e)
 
-def read_sensor_values(temperature_sensor, soil_moisture_sensor):
+def read_sensor_values(temperature_sensor, soil_moisture_sensor): #reading sensor values from 2 different sensors
     temperature, air_humidity = temperature_sensor.read_temperature()
     soil_humidity = soil_moisture_sensor.read_moisture()
     return temperature, air_humidity, soil_humidity
