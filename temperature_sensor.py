@@ -6,7 +6,7 @@ class TemperatureSensor:
         self.i2c = I2C(0, scl=Pin(scl_pin), sda=Pin(sda_pin), freq=100000)
         self.address = address
 
-    def read_temperature(self):
+    def read_temperature(self): #read temperature and air humidity values from sensor
         val = self.i2c.readfrom_mem(self.address, 0, 4)
         temperature = f"{val[2]}.{val[3]}"
         humidity = f"{val[0]}.{val[1]}"
