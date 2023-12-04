@@ -7,15 +7,18 @@ from thingspeak import send_data_to_thingspeak, read_sensor_values
 from parameters import Parameters
 from time import sleep
 
-moisture_sensor = SoilMoistureSensor(36)
+
+###Pin Information to initialize sensors
+moisture_sensor = SoilMoistureSensor(36)             
 temperature_sensor = TemperatureSensor(22, 21, 0x5c)
 oled = OLEDDisplay(128, 64, (22, 21), 0x3c)
 relay = Relay(3)
 
 
-WIFI_SSID = "UREL-SC661-V-2.4G"
+WIFI_SSID = "UREL-SC661-V-2.4G"    #wifi information                   
 WIFI_PSWD = "TomFryza"
-THINGSPEAK_API_KEY = "MX7Z5X5MA96ZOIZW"  #We need to check this again
+
+THINGSPEAK_API_KEY = "MX7Z5X5MA96ZOIZW"  #API KEY to send data to thingspeak
 params= Parameters()
 
 try:
@@ -41,9 +44,9 @@ try:
             # We need to calculate threshold value
         if soil_moisture < params.soil_moisture_limit:  #checking if measured moisture is under the limit
             relay.control_relay(True, 1000) # starts watering for 1m if soil moisture is under the limit
-            params.check_time = 5          # sets sleep time to 1m to check if watering was enought
+            params.check_time = 5          # sets sleep time to 1m to check if watering was enought 5s for demonstration purposes
         else:
-            params.check_time = 15        #if watering was enought sets check time back to 30m
+            params.check_time = 15        #if watering was enought sets check time back to 30m 15s for demonstration purposes
             
         
         send_data_to_thingspeak(THINGSPEAK_API_KEY, temperature, humidity, soil_moisture) #send data to thingspeak
