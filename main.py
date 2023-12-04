@@ -44,9 +44,9 @@ try:
             # We need to calculate threshold value
         if soil_moisture < params.soil_moisture_limit:  #checking if measured moisture is under the limit
             relay.control_relay(True, 1000) # starts watering for 1m if soil moisture is under the limit
-            params.check_time = 5          # sets sleep time to 1m to check if watering was enought 5s for demonstration purposes
+            params.check_time = 5          # sets sleep time to 1m to check if watering was enough/ 5s for demonstration purposes
         else:
-            params.check_time = 15        #if watering was enought sets check time back to 30m 15s for demonstration purposes
+            params.check_time = 15        #if watering was enough sets check time back to 30m/ 15s for demonstration purposes
             
         
         send_data_to_thingspeak(THINGSPEAK_API_KEY, temperature, humidity, soil_moisture) #send data to thingspeak
