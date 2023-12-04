@@ -3,7 +3,7 @@ class Parameters:
         self.check_time = check_time
         self.soil_moisture_limit= soil_moisture
     
-    def calculate_parameters(self, soil_moisture, air_humidity, temperature):
+    def calculate_parameters(self, soil_moisture, air_humidity, temperature): #calculate soil moisture limit with given values
         if(temperature>30 and air_humidity<30):
             self.soil_moisture_limit = 35
         elif(temperature<18):
