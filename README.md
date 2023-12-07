@@ -13,10 +13,13 @@ The Smart Plant Watering System with Data Logging Feature is designed to provide
 Acts as the brain of the system, processing sensor data and making decisions.
 
 ### Hardware Composition
-<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/6b048989-3e3f-48ae-b58c-932a76ed4354" width="450" height="350">
+<figure>
+   <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/6b048989-3e3f-48ae-b58c-932a76ed4354" width="450" height="350">
+   <figcaption>System we are usingn</figcaption>
+</figure>
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/31563039-4c37-4b49-acbf-2cd60d1f82ba" width="450" height="350">
 
-This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
+These images showcase the complete hardware assembly comprising various components interconnected to form the smart plant watering system. On the left picture is the complete 
 
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3" width="450" height="350">
 
