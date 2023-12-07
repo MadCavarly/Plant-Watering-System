@@ -94,7 +94,7 @@ This flowchart visually outlines the program's logical sequence, detailing the s
    - The system will continuously monitor soil moisture, temperature, and humidity based on the configured parameters.
    - It will autonomously control the watering system to maintain optimal soil moisture levels.
 
-7. **Checking the Sensor Values**
+7. **Checking the Sensor Values:**
    -https://thingspeak.com/channels/2356061 You can check the temperature, air humidity and soil moisture values from this link.
 
 ## References
