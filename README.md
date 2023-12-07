@@ -14,8 +14,9 @@ Acts as the brain of the system, processing sensor data and making decisions.
 
 ### Hardware Composition
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/4dc4e4e7-ed42-4038-bab3-11df1a055c8f" width="450" height="350">
+<img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/6b048989-3e3f-48ae-b58c-932a76ed4354" width="450" height="350">
 
-(Picture will change) This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
+This image showcases the complete hardware assembly comprising various components interconnected to form the smart plant watering system.
 
 <img src= "https://github.com/MadCavarly/Smart-Plant-Watering-System/assets/147071482/9cbc9b81-29b6-4726-84a7-e2e6b53280b3" width="450" height="350">
 
